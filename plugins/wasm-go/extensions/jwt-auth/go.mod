@@ -1,12 +1,12 @@
 module github.com/alibaba/higress/plugins/wasm-go/extensions/jwt-auth
 
-go 1.19
+go 1.23.0
 
 replace github.com/alibaba/higress/plugins/wasm-go => ../..
 
 require (
 	github.com/alibaba/higress/plugins/wasm-go v1.3.5
-	github.com/go-jose/go-jose/v3 v3.0.3
+	github.com/go-jose/go-jose/v3 v3.0.4
 	github.com/higress-group/proxy-wasm-go-sdk v1.0.0
 	github.com/tidwall/gjson v1.17.3
 )
@@ -18,5 +18,5 @@ require (
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/tidwall/resp v0.1.1 // indirect
-	golang.org/x/crypto v0.23.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
 )

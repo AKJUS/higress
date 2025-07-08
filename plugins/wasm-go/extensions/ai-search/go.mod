@@ -1,6 +1,6 @@
 module github.com/alibaba/higress/plugins/wasm-go/extensions/ai-search
 
-go 1.18
+go 1.23.0
 
 replace github.com/alibaba/higress/plugins/wasm-go => ../..
 
@@ -21,6 +21,6 @@ require (
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/tidwall/resp v0.1.1 // indirect
-	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 )
